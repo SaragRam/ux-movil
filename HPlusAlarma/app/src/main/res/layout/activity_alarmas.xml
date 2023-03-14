@@ -14,8 +14,8 @@
         android:layout_marginTop="140dp"
         app:layout_constraintTop_toTopOf="@+id/tableLayout"
         app:srcCompat="@drawable/fondo_media"
-        tools:layout_editor_absoluteX="9dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp" />
 
     <TextView
         android:id="@+id/textView1"
@@ -358,5 +358,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/bottom_nav_menu" />
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/mobile_navigation"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
