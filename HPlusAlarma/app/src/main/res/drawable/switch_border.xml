@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Define el color del borde del Switch -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/azul_cielo" />
+
+    <!-- Define el color de fondo del Switch -->
+    <solid android:color="@color/white" />
+
+    <!-- Define la esquina redondeada del Switch -->
+    <corners android:radius="100dp" />
+
+</shape>
