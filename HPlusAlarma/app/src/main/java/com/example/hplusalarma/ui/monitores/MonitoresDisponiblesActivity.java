@@ -16,4 +16,9 @@ public class MonitoresDisponiblesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_monitores_disponibles);
     }
+
+    public void agregarMonitor(View view) {
+        Intent intent = new Intent(this, AgregarMonitorActivity.class);
+        startActivity(intent);
+    }
 }

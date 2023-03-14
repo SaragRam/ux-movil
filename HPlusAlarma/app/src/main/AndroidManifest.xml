@@ -39,6 +39,9 @@
         <activity
             android:name=".ui.monitores.MonitoresDisponiblesActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.monitores.AgregarMonitorActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
