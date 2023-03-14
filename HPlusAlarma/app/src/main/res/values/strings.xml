@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">H+ Alarm</string>
+    <string name="title_home">Home</string>
+    <string name="title_atras">Atras</string>
+    <string name="title_salir">Salir</string>
+    <string name="alarmas">Alarmas</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="salir">Salir</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="mis_alarmas">Mis Alarmas</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="confirmar_contraseña">Confirmar Contraseña</string>
+    <string name="monitores">Monitores</string>
+    <string name="guardar">Guardar</string>
+    <string name="misAlarmas">Mis Alarmas</string>
+    <string name="nombre">Nombre</string>
+    <string name="estado">Estado</string>
+    <string name="acciones">Acciones</string>
+    <string name="añadir_alarma">Añadir Alarma</string>
+    <string name="monitores_vinculados">Monitores Vinculados</string>
+    <string name="añadir_monitor">Añadir Monitor</string>
+    <string name="monitores_disponibles">Monitores Disponibles</string>
+</resources>
