@@ -40,7 +40,10 @@
             android:name=".ui.monitores.MonitoresDisponiblesActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.monitores.AgregarMonitorActivity"
+            android:name=".ui.alarmas.AñadirAlarmasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.alarmas.EditarAlarmasActivity"
             android:exported="false" />
     </application>
 

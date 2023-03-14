@@ -19,11 +19,22 @@
     <string name="monitores">Monitores</string>
     <string name="guardar">Guardar</string>
     <string name="misAlarmas">Mis Alarmas</string>
-    <string name="nombre">Nombre</string>
+    <string name="nombre">Nombre:</string>
     <string name="estado">Estado</string>
     <string name="acciones">Acciones</string>
     <string name="añadir_alarma">Añadir Alarma</string>
     <string name="monitores_vinculados">Monitores Vinculados</string>
     <string name="añadir_monitor">Añadir Monitor</string>
     <string name="monitores_disponibles">Monitores Disponibles</string>
+    <string name="crear_alarma">Crear Alarma</string>
+    <string name="hora">Hora:</string>
+    <string name="repetir">Repetir:</string>
+    <string name="cuantas_veces">¿Cuántas veces?</string>
+    <string name="cada_cuanto">¿Cada cuánto?</string>
+    <string name="vibracion">Vibración:</string>
+    <string name="tono">Tono:</string>
+    <string name="crear">Crear</string>
+    <string name="dos_puntos">:</string>
+    <string name="editar_alarma">Editar Alarma</string>
+    <string name="editar">Editar</string>
 </resources>

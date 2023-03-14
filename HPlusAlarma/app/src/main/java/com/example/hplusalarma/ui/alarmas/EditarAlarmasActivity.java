@@ -7,17 +7,16 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.hplusalarma.R;
-import com.example.hplusalarma.ui.home.HomeActivity;
 
-public class AñadirAlarmasActivity extends AppCompatActivity {
+public class EditarAlarmasActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_anadir_alarmas);
+        setContentView(R.layout.activity_editar_alarmas);
     }
 
-    public void crear(View view) {
+    public void editarAlarma(View view) {
         Intent intent = new Intent(this, AlarmasActivity.class);
         startActivity(intent);
     }
