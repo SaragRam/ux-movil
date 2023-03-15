@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.hplusalarma.GlobalVars;
 import com.example.hplusalarma.MainActivity;
 import com.example.hplusalarma.R;
+import com.example.hplusalarma.ui.notificacion.NotificacionActivity;
 
 public class RegistrarseActivity extends AppCompatActivity {
 

@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.hplusalarma.R;
 import com.example.hplusalarma.ui.home.HomeActivity;
+import com.example.hplusalarma.ui.notificacion.NotificacionActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class AñadirAlarmasActivity extends AppCompatActivity {
@@ -55,6 +56,11 @@ public class AñadirAlarmasActivity extends AppCompatActivity {
 
     public void cancelar(View view) {
         Intent intent = new Intent(this, AlarmasActivity.class);
+        startActivity(intent);
+    }
+
+    public void activarNotificacion(View view) {
+        Intent intent = new Intent(this, NotificacionActivity.class);
         startActivity(intent);
     }
 }

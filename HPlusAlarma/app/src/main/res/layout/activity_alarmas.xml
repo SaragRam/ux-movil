@@ -7,6 +7,16 @@
     tools:context=".ui.alarmas.AlarmasActivity"
     android:background="@color/white">
 
+    <include
+        android:id="@+id/header"
+        layout="@layout/layout_header"
+        android:layout_width="393dp"
+        android:layout_height="79dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:visibility="visible" />
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
