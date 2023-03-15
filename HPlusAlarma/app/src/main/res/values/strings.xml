@@ -37,4 +37,7 @@
     <string name="dos_puntos">:</string>
     <string name="editar_alarma">Editar Alarma</string>
     <string name="editar">Editar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="nueva_notificacion">Tienes una nueva alarma:</string>
+
 </resources>
