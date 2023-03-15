@@ -12,6 +12,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.hplusalarma.R;
 import com.example.hplusalarma.ui.home.HomeActivity;
+import com.example.hplusalarma.ui.notificacion.NotificacionActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MonitoresDisponiblesActivity extends AppCompatActivity {
@@ -50,6 +51,11 @@ public class MonitoresDisponiblesActivity extends AppCompatActivity {
 
     public void agregarMonitor(View view) {
         Intent intent = new Intent(this, AgregarMonitorActivity.class);
+        startActivity(intent);
+    }
+
+    public void activarNotificacion(View view) {
+        Intent intent = new Intent(this, NotificacionActivity.class);
         startActivity(intent);
     }
 }

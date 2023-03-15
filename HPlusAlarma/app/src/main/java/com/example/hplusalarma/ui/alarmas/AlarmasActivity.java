@@ -25,6 +25,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.example.hplusalarma.R;
 import com.example.hplusalarma.ui.home.HomeActivity;
+import com.example.hplusalarma.ui.notificacion.NotificacionActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.chip.Chip;
 
@@ -111,5 +112,10 @@ public class AlarmasActivity extends AppCompatActivity {
         layoutParams.weight = 10;
         positiveButton.setLayoutParams(layoutParams);
         negativeButton.setLayoutParams(layoutParams);
+    }
+
+    public void activarNotificacion(View view) {
+        Intent intent = new Intent(this, NotificacionActivity.class);
+        startActivity(intent);
     }
 }

@@ -37,4 +37,9 @@ public class NotificacionActivity extends AppCompatActivity {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
+
+    public void activarNotificacion(View view) {
+        Intent intent = new Intent(this, NotificacionActivity.class);
+        startActivity(intent);
+    }
 }
